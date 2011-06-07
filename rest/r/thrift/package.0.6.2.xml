@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>thrift</name>
+ <channel>benjaminhawkeslewis.github.com</channel>
+ <summary>Cross-language RPC protocol</summary>
+ <description>Thrift is a software framework for scalable cross-language services development.</description>
+ <lead>
+  <name>Jake Farrell</name>
+  <user>jfarrell</user>
+  <email>jfarrell@apache.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-06-07</date>
+ <time>15:43:48</time>
+ <version>
+  <release>0.6.2</release>
+  <api>0.6.1</api>
+ </version>
+ <stability>
+  <release>snapshot</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache Licence, Version 2.0</license>
+ <notes>
+Cross-language service
+ </notes>
+ <contents>
+  <dir baseinstalldir="Thrift" name="/">
+   <file baseinstalldir="Thrift" md5sum="263afa86a41ba8f202f09da567a428f4" name="protocol/TBinaryProtocol.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="32eda29932063dba4ed75bdaaf419b8e" name="protocol/TBinarySerializer.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="946f288d0939f2f7eb8c3c2eafae5d89" name="protocol/TProtocol.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="b6a260849e95dea89830db9b4faa6362" name="server/TForkingServer.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="0104ba3a992de9a3e6adffa670d484b8" name="server/TServer.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="7af7d9a0c1601c15d3c70af621f4773c" name="server/TSimpleServer.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="29ad92e05b3dd7c9dc8a41e2e8a26b62" name="transport/TBufferedTransport.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="a6af4768d74986b4bf512c20ff0f2ebe" name="transport/TFramedTransport.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="890dbc43471e9e799cec6f5dafb037a5" name="transport/THttpClient.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="a7f2f9951bd965578926eab93798fdc4" name="transport/TMemoryBuffer.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="34d14bc6411ff96561f4acdb1f4176ff" name="transport/TNullTransport.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="7862beac54fc21ae4d2d30ff98aca353" name="transport/TPhpStream.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="79223ea1bb7225374365277202a02562" name="transport/TServerSocket.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="f778a85bc8fc52e752a7b88b4b9088a7" name="transport/TServerTransport.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="cc5a5a5629cc0fd7c4f9b3e775aa8083" name="transport/TSocket.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="5bcc1d6dc794cc0dbecbff89fdf5571a" name="transport/TSocketPool.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="c3ddb6d18771dd873d785875ffbf9179" name="transport/TTransportFactory.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="0ed9cae8b94cba3a76daf52de00a8d54" name="transport/TTransport.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="7ffd1e5fb8bf906cf0d8843117ae3ac9" name="autoload.php" role="php" />
+   <file baseinstalldir="Thrift" md5sum="e2807f137e68efae1c6bafe67cf5a055" name="Thrift.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>thrift_protocol</name>
+    <channel>benjaminhawkeslewis.github.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+</package>
