@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>benjaminhawkeslewis.github.com</name>
+  <summary>Benjamin Hawkes-Lewis's PEAR channel on Github</summary>
+  <alias>benjaminhawkeslewis</alias>
+  <url>http://benjaminhawkeslewis.github.com/pear/</url>
+</server>
