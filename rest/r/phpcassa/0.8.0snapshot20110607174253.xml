@@ -2,17 +2,17 @@
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/phpcassa">phpcassa</p>
     <c>benjaminhawkeslewis.github.com</c>
-    <v>0.8.0snapshot20110607161709</v>
+    <v>0.8.0snapshot20110607174253</v>
     <st>snapshot</st>
     <l>MIT</l>
     <m>thobbs</m>
     <s>Client for Apache Cassandra</s>
     <d>Client for Apache Cassandra</d>
-    <da>2011-06-07 16:26:01</da>
+    <da>2011-06-07 17:44:17</da>
     <n>
 Client for Apache Cassandra
  </n>
-    <f>55758</f>
-    <g>http://benjaminhawkeslewis.github.com/pear//get/phpcassa-0.8.0snapshot20110607161709</g>
-    <x xlink:href="package.0.8.0snapshot20110607161709.xml"/>
+    <f>114404</f>
+    <g>http://benjaminhawkeslewis.github.com/pear//get/phpcassa-0.8.0snapshot20110607174253</g>
+    <x xlink:href="package.0.8.0snapshot20110607174253.xml"/>
 </r>

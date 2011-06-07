@@ -3,6 +3,11 @@
     <p>phpcassa</p>
     <c>benjaminhawkeslewis.github.com</c>
     <r>
+        <v>0.8.0snapshot20110607174253</v>
+        <s>snapshot</s>
+        <m>5.3.0</m>
+    </r>
+    <r>
         <v>0.8.0snapshot20110607161709</v>
         <s>snapshot</s>
         <m>5.3.0</m>

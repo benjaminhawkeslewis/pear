@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>phpcassa 0.8.0snapshot20110607174253 (snapshot)</title>
+        <link href="http://benjaminhawkeslewis.github.com/pear//get/phpcassa-0.8.0snapshot20110607174253.tgz" />
+        <id>phpcassa-0.8.0snapshot20110607174253</id>
+        <author>
+            <name>thobbs</name>
+        </author>
+        <updated>2011-06-07T17:44:17+01:00</updated>
+        <content>
+            Client for Apache Cassandra
+        </content>
+    </entry>    <entry>
         <title>phpcassa 0.8.0snapshot20110607161709 (snapshot)</title>
         <link href="http://benjaminhawkeslewis.github.com/pear//get/phpcassa-0.8.0snapshot20110607161709.tgz" />
         <id>phpcassa-0.8.0snapshot20110607161709</id>

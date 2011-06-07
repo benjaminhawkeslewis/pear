@@ -3,7 +3,7 @@
 <n>phpcassa</n>
 <c>benjaminhawkeslewis.github.com</c>
 <ca xlink:href="/rest/c/Default">Default</ca>
-<l>BSD</l>
+<l>MIT</l>
 <s>Client for Apache Cassandra</s>
 <d>Client for Apache Cassandra</d>
 <r xlink:href="/rest/r/phpcassa" />
