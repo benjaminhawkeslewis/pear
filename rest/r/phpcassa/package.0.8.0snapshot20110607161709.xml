@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>phpcassa</name>
+ <channel>benjaminhawkeslewis.github.com</channel>
+ <summary>Client for Apache Cassandra</summary>
+ <description>Client for Apache Cassandra</description>
+ <lead>
+  <name>Tyler Hobbs</name>
+  <user>thobbs</user>
+  <email>tyler@datastax.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-06-07</date>
+ <time>16:26:01</time>
+ <version>
+  <release>0.8.0snapshot20110607161709</release>
+  <api>0.8.0</api>
+ </version>
+ <stability>
+  <release>snapshot</release>
+  <api>devel</api>
+ </stability>
+ <license>BSD</license>
+ <notes>
+Client for Apache Cassandra
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="13d7743013d98276f645cc884cd39912" name="doc/changelog.rst" role="data" />
+   <file baseinstalldir="/" md5sum="9c3886d9e4f2530e0385926146997dd0" name="doc/conf.py" role="data" />
+   <file baseinstalldir="/" md5sum="7caed60a2b43c82a1971669d00f10536" name="doc/index.rst" role="data" />
+   <file baseinstalldir="/" md5sum="53720bbcdab4077c48aa0be4cee7295d" name="doc/installation.rst" role="data" />
+   <file baseinstalldir="/" md5sum="78fb85ef3f6d7b377dc3fbb5ac339976" name="doc/Makefile" role="data" />
+   <file baseinstalldir="/" md5sum="3efcc9c8049ce94d853377cc35fd7b85" name="doc/sphinxtogithub.py" role="data" />
+   <file baseinstalldir="/" md5sum="3ce4109465ab2a41868472813235f009" name="doc/troubleshooting.rst" role="data" />
+   <file baseinstalldir="/" md5sum="80881f6087d26de6024a5256c4274d68" name="doc/tutorial.rst" role="data" />
+   <file baseinstalldir="/" md5sum="68b329da9893e34099c7d8ad5cb9c940" name="doc/__init__.py" role="data" />
+   <file baseinstalldir="/" md5sum="6fef05c351bc6535fea4c4f8dcdccbdd" name="test/all_tests.php" role="test" />
+   <file baseinstalldir="/" md5sum="e025040c44842627e23a9a4341802be6" name="test/cassandra.yaml" role="test" />
+   <file baseinstalldir="/" md5sum="399359445be0ca1226bfafb9b7c9a9b7" name="test/test_autopacking.php" role="test" />
+   <file baseinstalldir="/" md5sum="2b741980146fd3407e1830ba99057bef" name="test/test_columnfamily.php" role="test" />
+   <file baseinstalldir="/" md5sum="49f3eed1f2e14002fd41caa9ba6d709a" name="test/test_large_ops.php" role="test" />
+   <file baseinstalldir="/" md5sum="9e827d5104166a57810d4a3742afff5c" name="test/test_pooling.php" role="test" />
+   <file baseinstalldir="/" md5sum="908fc6b43dde63c69dbaa52a0654e755" name="test/test_sysmanager.php" role="test" />
+   <file baseinstalldir="Thrift/" md5sum="2447567c4288438411078a6858623d49" name="thrift/packages/cassandra/Cassandra.php" role="php" />
+   <file baseinstalldir="Thrift/" md5sum="47a597da681e6ced2dbc381277a323cb" name="thrift/packages/cassandra/cassandra_constants.php" role="php" />
+   <file baseinstalldir="Thrift/" md5sum="a7c9f7ccf287b3b4f9db5c23722c50c2" name="thrift/packages/cassandra/cassandra_types.php" role="php" />
+   <file baseinstalldir="/" md5sum="edd3c3ab982d5a12687385fbbe84a367" name="columnfamily.php" role="php" />
+   <file baseinstalldir="/" md5sum="46417a09f4aad93f3e97072c9f101fa6" name="connection.php" role="php" />
+   <file baseinstalldir="/" md5sum="045fa051387023d98e4b8f6df1e939ff" name="INSTALLING" role="doc" />
+   <file baseinstalldir="/" md5sum="f7a55fbb7aaf9aa2771bb0d7a9556f54" name="LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="e8448dbb3dd1262ea9ba700071ed686c" name="sysmanager.php" role="php" />
+   <file baseinstalldir="/" md5sum="e18fff7e213a2d00ce0ee67782b7b774" name="uuid.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>thrift</name>
+    <channel>benjaminhawkeslewis.github.com</channel>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.8.0snapshot20110607161709</release>
+    <api>0.8.0</api>
+   </version>
+   <stability>
+    <release>snapshot</release>
+    <api>devel</api>
+   </stability>
+   <date>2011-06-07</date>
+   <license>BSD</license>
+   <notes>
+Client for Apache Cassandra
+   </notes>
+  </release>
+ </changelog>
+</package>

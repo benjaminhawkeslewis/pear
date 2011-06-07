@@ -2,6 +2,30 @@
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
     <pi>
         <p>
+            <n>phpcassa</n>
+            <c>benjaminhawkeslewis.github.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD</l>
+            <s>Client for Apache Cassandra</s>
+            <d>Client for Apache Cassandra</d>
+            <r xlink:href="/rest/r/phpcassa" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.8.0snapshot20110607161709</v>
+                <s>snapshot</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.8.0snapshot20110607161709</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{s:4:"name";s:6:"thrift";s:7:"channel";s:30:"benjaminhawkeslewis.github.com";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>thrift</n>
             <c>benjaminhawkeslewis.github.com</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
