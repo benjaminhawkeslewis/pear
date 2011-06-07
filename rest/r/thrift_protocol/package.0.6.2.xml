@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>thrift_protocol</name>
+ <channel>benjaminhawkeslewis.github.com</channel>
+ <summary>Cross-language RPC protocol</summary>
+ <description>Thrift is a software framework for scalable cross-language services development.</description>
+ <lead>
+  <name>Jake Farrell</name>
+  <user>jfarrell</user>
+  <email>jfarrell@apache.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-06-07</date>
+ <time>15:06:23</time>
+ <version>
+  <release>0.6.2</release>
+  <api>0.6.1</api>
+ </version>
+ <stability>
+  <release>snapshot</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache Licence, Version 2.0</license>
+ <notes>
+Cross-language service
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="a493ce66388c698cc2cf26ff73e1dc4d" name="config.m4" role="src" />
+   <file md5sum="bf036d21e1b0e769db186e909f3f50cb" name="config.w32" role="src" />
+   <file md5sum="3972e26403d22e6c4c3235f9840b6176" name="php_thrift_protocol.h" role="src" />
+   <file md5sum="570462bb11285c636abddf88cf2563b5" name="php_thrift_protocol.cpp" role="src" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <providesextension>thrift_protocol</providesextension>
+ <extsrcrelease />
+</package>

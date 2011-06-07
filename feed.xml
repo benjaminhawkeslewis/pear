@@ -6,5 +6,16 @@
         <name>http://benjaminhawkeslewis.github.com/pear/</name>
     </author>
 
-
+    <entry>
+        <title>thrift_protocol 0.6.2 (snapshot)</title>
+        <link href="http://benjaminhawkeslewis.github.com/pear//get/thrift_protocol-0.6.2.tgz" />
+        <id>thrift_protocol-0.6.2</id>
+        <author>
+            <name>jfarrell</name>
+        </author>
+        <updated>2011-06-07T15:06:23+01:00</updated>
+        <content>
+            Thrift is a software framework for scalable cross-language services development.
+        </content>
+    </entry>
 </feed>

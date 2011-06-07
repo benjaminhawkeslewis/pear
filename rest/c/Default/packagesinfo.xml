@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>thrift_protocol</n>
+            <c>benjaminhawkeslewis.github.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>Apache Licence, Version 2.0</l>
+            <s>Cross-language RPC protocol</s>
+            <d>Thrift is a software framework for scalable cross-language services development.</d>
+            <r xlink:href="/rest/r/thrift_protocol" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.6.2</v>
+                <s>snapshot</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.6.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
+    </pi>
 </f>
